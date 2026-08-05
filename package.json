@@ -1,0 +1,54 @@
+{
+  "name": "barber",
+  "private": true,
+  "version": "1.0.0",
+  "main": "package.json",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint app components lib sanity schemaTypes types --max-warnings=0"
+  },
+  "keywords": [
+    "sanity",
+    "nextjs"
+  ],
+  "dependencies": {
+    "@sanity/vision": "^5.9.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.34.0",
+    "lucide-react": "^0.468.0",
+    "next": "^16.1.6",
+    "next-sanity": "^9.8.0",
+    "react": "^19.2.4",
+    "react-compare-slider": "^3.1.0",
+    "react-dom": "^19.2.4",
+    "sanity": "^5.9.0",
+    "styled-components": "^6.1.18",
+    "tailwind-merge": "^2.5.5"
+  },
+  "devDependencies": {
+    "@sanity/eslint-config-studio": "^6.0.0",
+    "@types/node": "^20.17.10",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "^15.5.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.5",
+    "tailwindcss": "^3.4.16",
+    "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  },
+  "prettier": {
+    "semi": false,
+    "printWidth": 100,
+    "bracketSpacing": false,
+    "singleQuote": true
+  }
+}

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: var(--font-display-oswald);
+  --font-body: var(--font-body-manrope);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg, #ffffff);
+  color: var(--color-text, #000000);
+  font-family: var(--font-body), sans-serif;
+  transition: background-color 320ms ease, color 320ms ease;
+}
+
+.font-display {
+  font-family: var(--font-display), sans-serif;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #ffffff;
+}
