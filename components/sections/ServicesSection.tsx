@@ -13,14 +13,13 @@ export default function ServicesSection({services}: Readonly<ServicesSectionProp
       <div className="mx-auto max-w-7xl">
         <Reveal 
         delay = {0.2}
-        className="mb-12 flex flex-col gap-4 sm:mb-20 sm:flex-row sm:items-end sm:justify-between">
+        className="mb-12 flex flex-col gap-4 sm:mb-20 text-center">
           
           <h2
             className="font-display text-4xl uppercase tracking-tight sm:text-5xl md:text-6xl lg:text-7xl"
           >
             Services + Pricing
           </h2>
-          <p className="text-[10px] uppercase">Transparent Pricing</p>
         </Reveal>
 
         {hasServices ? (

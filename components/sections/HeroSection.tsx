@@ -45,12 +45,13 @@ export default function HeroSection({
 
         <Reveal delay={0.08} className="text-center">
           <h1
-            className="font-display text-[11vw] font-bold uppercase leading-[0.85] tracking-tight md:text-[8vw] text-center"
+            className="font-display text-[11vw] font-bold uppercase leading-[0.85] text-transparent tracking-tight md:text-[8vw] flex flex-col items-center"
+            style={{WebkitTextStroke: '4px var(--color-text)'}}
           >
             {hero.title}
             <span
-              className="mt-2 block border-t border-[color:var(--color-border)] pt-2 whitespace-nowrap text-transparent"
-              style={{WebkitTextStroke: '1px var(--color-text)'}}
+              className="mt-2 block w-full border-t border-[color:var(--color-border)] pt-2 text-center text-balance text-[var(--color-text)]"
+              style={{WebkitTextStroke: '0'}}
             >
               {hero.subtitle}
             </span>

@@ -127,7 +127,7 @@ const bodyCabin = Cabin({
 })
 
 export const metadata: Metadata = {
-  title: 'CIMA HAIR SALON',
+  title: 'PORTFOLIO BARBERSHOP/SALON',
   description: 'Modern Barber Shop built with Next.js and Sanity',
 }
 
